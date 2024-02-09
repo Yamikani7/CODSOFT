@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calculator">
+        <input id="display" readonly>
+        <div id="keys">
+            <button onclick="numToDisplay('/')" class="operator-btn">/</button>
+            <button onclick="numToDisplay('7')">7</button>
+            <button onclick="numToDisplay('8')">8</button>
+            <button onclick="numToDisplay('9')">9</button>
+            <button onclick="numToDisplay('*')"class="operator-btn">*</button>
+            <button onclick="numToDisplay('4')">4</button>
+            <button onclick="numToDisplay('5')">5</button>
+            <button onclick="numToDisplay('6')">6</button>
+            <button onclick="numToDisplay('-')"class="operator-btn">-</button>
+            <button onclick="numToDisplay('1')">1</button>
+            <button onclick="numToDisplay('2')">2</button>
+            <button onclick="numToDisplay('3')">3</button>
+            <button onclick="numToDisplay('+')"class="operator-btn">+</button>
+            <button onclick="numToDisplay('0')">0</button>
+            <button onclick="numToDisplay('.')">.</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="clearDisplay()"class="operatorB-btn">C</button>
+
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
